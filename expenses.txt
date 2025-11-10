@@ -1,0 +1,12 @@
+5. Create a file named expenses.txt and write your expense data into it.
+6. Append a new expense and read the file to show data on page.
+
+MONTHLY EXPENSES 
+----------------
+Food = 20000
+Transport = 15000
+Others = 50000
+
+
+
+
