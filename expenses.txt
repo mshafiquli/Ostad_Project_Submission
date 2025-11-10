@@ -2,8 +2,8 @@
 Expense Detail
 ...............
 Food : 20000, 
-Transport: 15000, 
-Others: 50000
+Transport: 15000
 House Rent: 25000
+Others :50000
 ---------------------
 Total Expenses: 110000

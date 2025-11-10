@@ -74,24 +74,24 @@ echo "<br><p><h2>............5. Create a file and enter expenses detail.........
 
 echo "<br><h4>Writing in a File:</h4>";
 $file= fopen('expenses.txt','w');
-fwrite($file, "\nExpense Detail\n...............\nFood : 20000, \nTransport: 15000, \nOthers: 50000");
+fwrite($file, "\nExpense Detail\n...............\nFood : 20000, \nTransport: 15000");
 fwrite($file, "\nHouse Rent: 25000");
 echo "<pre>";
 echo file_get_contents('expenses.txt');
 echo "</pre>";
 fclose($file);
 
+echo "<br><p><h2>............6. Append in file and show the data............</h2></p>";
 
 echo "<br><h4>Appending in a File:</h4>";
 $file=fopen('expenses.txt','a');
+fwrite($file, "\nOthers :50000");
 fwrite($file, "\n---------------------");
 fwrite($file, "\nTotal Expenses: 110000");
 echo "<pre>";
 echo file_get_contents('expenses.txt');
 echo "</pre>";
 fclose($file);
-
-
 
 ?>
 
